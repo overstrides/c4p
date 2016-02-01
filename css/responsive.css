@@ -1,0 +1,768 @@
+﻿
+@media (max-width: 999px) {
+	
+	body,
+	header {
+		width: 100%;
+		min-width: 0;
+	}
+
+	.top1,
+	.top2,
+	.submenu,
+	#container {
+		width: 768px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	 /*выровнял иконки по правому краю*/
+	.top1 .small-5 {
+		width: 365px;
+		padding-right: 1px;
+	}	
+	
+	#container { padding-bottom: 0; }
+
+	/************************/
+	/*Меню*/
+	/************************/
+	nav,
+	nav > ul  { width: 100%; }
+
+	.submenu { height: 295px; }
+
+	.submenu .sm-left {	width: 180px; }
+
+	.submenu .sm-left > li a { padding-left: 25px; }
+
+	.submenu .sm-right {
+		width: 588px;
+		padding: 30px;
+	}
+
+	.submenu .sm-right .smr:first-child { margin-right: 47px; }
+
+	.submenu .sm-right .smr { width: 240px;	}
+
+	.lSAction > .lSPrev { left: calc(50% - 380px) !important; }
+
+	.lSAction > .lSNext { right: calc(50% - 380px) !important; }
+
+
+	/************************/
+	/*Контент*/
+	/************************/
+	#container .content {
+		float: left;
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	/*Новинки, мото, лайфстайл*/
+	.news_main_big,
+	.news_main_big a.img_scale {
+		width: 349px;
+		height: auto;
+	}
+
+	/*Видео*/
+	.video_main_small { margin-right: 6px; }
+
+	.video_main_small,
+	.video_main_small a.w_video {
+		width: 175px;
+		height: auto;
+	}
+
+	/*Блок текста*/
+	#container .content article { border-bottom: 1px solid #dedede; }
+
+
+	/************************/
+	/*Боковая панель*/
+	/************************/
+	#container aside {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	/*блок рекламы*/
+	#container .help-class-adsense-block {		
+		/*min-width: 300px;*/
+		margin-top: 3px;
+	}
+
+	.news-body #container .help-class-adsense-block { order:1; }
+
+
+	/*блок популярное сегодня*/
+	#container .sidebl.lined.help-class-popular-block  {
+		order:2;
+		min-width: 418px;
+		padding-top: 0;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	#container .sidebl.lined.help-class-popular-block .side_img_scale {
+		width: 100%;
+		height: auto;
+	}
+
+	#container .sidebl.lined.help-class-popular-block .side_img_scale + a {
+		font: 500 24px/48px 'Roboto', sans-serif;
+		color: #000;
+	}
+
+	/*отключаем показ второй фотогафии*/
+	#container .sidebl.lined.help-class-popular-block .s_lenta_pop:last-child { display: none; }
+
+	/*блок соцсетей + статьи по маркам*/
+	.news-body #container .help-class-social-mark {
+		order:3;
+		min-width: 100%;
+		display: flex;
+		margin-bottom: 0;
+	}
+
+	/*блок соцсетей*/
+	
+	/*статьи по маркам*/
+	#container .sidebl.lined.help-class-mark-articles {
+		width: 418px;
+		border-bottom: none;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: wrap;		
+	}
+
+	#container .sidebl.lined.help-class-mark-articles .title { width: 100%; }
+
+	.stags,
+	.wtags { width: 130px; }
+
+
+
+	/************************/
+	/*Страница Новинки*/
+	/************************/
+
+	.lenta-body,
+	.lk-body { background: url(../img/bbg.jpg) left top repeat;	}
+	
+	ul.pagination {
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.lk-body #container .sidebl.lined.help-class-social-block { order: 3; }
+
+	.lk-body #container .sidebl.lined.help-class-mark-articles {
+		order: 4;
+		border-bottom: none;
+	}
+
+	/************************/
+	/*Страница Новинки -> Автомобиль */
+	/************************/
+
+	/*фото основного текста на всю ширину*/
+	article img {
+		width: 100%!important;
+		height: auto !important;
+	}
+
+	/*похожие статьи*/
+	.sim_articles {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	/*фикс выравнивания флексбокса*/
+	.clearfix:before,
+	.clearfix:after {
+		flex-basis: 0;
+		order: -1;
+	}
+	/*заголовок похожих новостей*/
+	.sim_articles .title { width: 100%; }
+
+	/*выравнивание блока характеристик авто*/
+	.s_price,
+	.s_charact {
+		height: 363px;
+	}
+
+	.s_price { width: 20%; }
+
+	.s_charact {
+		width: 38%;
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	#vk_comments {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+	
+	/*фотографии этой машины*/
+	#container aside .s_gal.help-class-thiscar-photo {
+		min-width: 250px;
+		width: 250px;
+		margin-right: 50px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		border-top: none;
+		padding-top: 0;
+	}
+
+	/*отступ заголовка*/
+	#container aside .s_gal.help-class-thiscar-photo .title { margin-bottom: 15px;	}
+
+	/*размеры фотографий*/
+	#container aside .s_gal.help-class-thiscar-photo  a {
+		min-width: 30%;
+		height: auto;
+		margin-right: 12px;
+		margin-bottom: 12px;
+	}
+	
+	#container aside .s_gal.help-class-thiscar-photo a:nth-child(3n) { margin-right: 0; }
+
+	#container aside .s_gal.help-class-thiscar-photo img {
+		width: 100%;
+		height: auto;
+	}
+
+	/*подпись*/
+	#container aside .s_gal.help-class-thiscar-photo  a.s_new {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+
+	/*популярное сегодня*/
+	#container .sidebl.s_gal +
+	.sidebl.lined .s_lenta_pop { width: 100%; }
+
+	#container .sidebl.s_gal +
+	.sidebl.lined .s_lenta_pop a {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	#container .sidebl.s_gal +
+	.sidebl.lined .s_lenta_pop a+a,
+	.s_charact + .sidebl .w_video + a,
+	a.s_one {
+		font: 500 24px/24px 'Roboto', sans-serif!important;
+		color: #000;
+	}
+
+	/*отключаем показ второй фотогафии*/
+	#container .sidebl.s_gal +
+	.s_lenta_pop:last-child { display: none; }
+
+	/*мы в соцсетях*/
+	#container .sidebl.lined.help-class-social-block{
+		min-width: 250px;
+		width: 250px;
+		margin-right: 50px;
+		border-bottom: none;
+	}
+
+
+	/*химия для варианта отображения блоков, если есть тест-драйв*/
+	#container .help-class-test-drive +
+	.help-class-thiscar-photo {	order: 3; }
+
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo {
+		width: 100%;
+		margin-right: 0;
+		justify-content: flex-start;
+	}
+
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo .clearfix { width: 100%; }
+
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo .title { order: -1; }
+
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo a,
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo a:nth-child(3n) {
+		min-width: 15%;
+		margin-right: 14px;
+	}
+
+	#container aside .help-class-test-drive +
+	.help-class-thiscar-photo a:nth-child(6n) { margin-right: 0; }
+
+	#container .help-class-test-drive +
+	.help-class-thiscar-photo +
+	.help-class-popular-block {
+		min-width: 48%;
+		width: 48%;
+	}
+
+	#container .help-class-test-drive +
+	.help-class-thiscar-photo +
+	.help-class-popular-block .s_lenta_pop { margin-top: 0; }
+
+	/*тест-драйв*/
+	#container aside .sidebl.lined.help-class-test-drive {
+		width: 48%;
+		height: auto;
+		margin-right: 25px;
+		margin-bottom: 20px;
+		border-top: none;
+		padding-top: 0;
+	}
+
+	#container aside .help-class-test-drive .w_video {
+		width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	/*подпись тест-драйва*/
+	.s_charact + .sidebl .w_video + a { margin-bottom: 15px; }
+
+	/*выравнивание значка плеера*/
+	a.w_video:after {
+		left: calc(50% - 30px);
+		top: calc(50% - 30px);
+	}
+
+	/*химия для варианта отображения блоков, если нет блока цены и характеристики*/
+	
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo {
+		width: 418px;
+		margin-right: 0;
+		justify-content: flex-start;
+	}
+
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo a,
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo a:nth-child(3n) {
+		min-width: 23%;
+		margin-right: 11px;
+	}
+
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo a:nth-child(4n) { margin-right: 0; }
+
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo +
+	.help-class-popular-block {
+		width: 100%;
+	}
+
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo +
+	.help-class-popular-block .s_lenta_pop {
+		width: 49%;
+		display: inline-block;
+	}
+
+	#container .help-class-adsense-block +
+	.s_gal.help-class-thiscar-photo +
+	.help-class-popular-block .s_lenta_pop:last-child {
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	/*блок с одной фотографией*/
+	a.s_one  {
+		width: 418px;
+		margin-top: 3px;
+	}
+
+	a.s_one img {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	/*фикс страницы о проекте*/
+	img[src="/uploads/images/Audi.jpg"] {
+		width: 100%!important;
+		height: auto!important;
+	}
+
+	/*футер*/
+	footer {
+		width: 718px;
+		height: auto;
+		margin-right: auto;
+		margin-left: auto;
+		padding-bottom: 20px;
+	}
+
+	footer .small-9 {
+		width: 50%;
+		padding-left: 0;
+	}
+
+	footer .small-9 li { width: 100%; }
+
+	footer .small-9 li a { padding: 0; }
+
+	footer .small-3 {
+		width: 50%;
+		padding-right: 0;
+	}
+
+	.count { margin-right: 0 !important; }
+
+
+}
+
+@media (max-width: 767px) {
+
+	#container.news-cont {margin-top: 0px;}
+
+	/*ширина контейнера 430px*/	
+	.top1,
+	.top2,
+	.submenu,
+	#container {
+		width: 480px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	header,
+	header .top1,
+	header .top1 .columns,
+	header .top2 { height: auto; }
+
+	header {
+		background-image: none;
+		background-color: black;
+	}
+
+	.top1 > .small-3 { display: none; }
+
+	.top1 > .small-5 {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.soc_btn a,
+	input[type=search] {
+		background-image: url(../img/spritesheet-ico.png);
+		background-repeat: no-repeat;
+		display: block;	
+		width: 48px;
+		height: 48px;	
+	}
+
+	.soc_btn a:nth-child(1) { background-position: -5px -63px; }
+	.soc_btn a:nth-child(2) { background-position: -63px -5px; }
+	.soc_btn a:nth-child(3) { background-position: -121px -5px; }
+	.soc_btn a:nth-child(4) { background-position: -121px -63px; }
+	.soc_btn a:nth-child(5) { background-position: -5px -5px; }
+	
+	.soc_btn a img { display: none; }
+
+	#search { margin-top: 10px; }
+
+	input[type=search] {
+		background: url(../img/_se.png) no-repeat right center;
+		border-radius: 5px;
+		font-size: 24px;
+	}
+
+	input[type=search]:focus {
+		background: #fff url(../img/_se.png) no-repeat right center;
+		width: 158px;
+		padding-right: 50px;
+	}
+
+	.top2 .small-9 { width: 100%; }
+
+	.top2 a.logo {
+		margin-top: -50px;
+		margin-left: -15px;
+	}
+
+	nav > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav > ul > li {
+		flex-grow: 1;
+		margin-right: -1px;
+	}
+
+	nav>ul>li:nth-child(1) { min-width: 43% }
+	nav>ul>li:nth-child(2) { min-width: 20% }
+	nav>ul>li:nth-child(3) { min-width: 38% }
+
+
+	nav > ul > li:nth-child(2) { margin-right: -2px;}
+
+	nav > ul > li > a {	padding: 0;	}
+
+	.submenu {
+		top: 59px;
+		height: auto;
+		border-top: 1px solid white;
+	}
+
+	.submenu .sm-right {
+		width: 300px;
+		padding: 10px 30px;
+	}
+
+	.submenu .sm-right .smr:first-child { margin: 10px 0 20px; }
+
+	.news_slider { display: none; }
+
+	.news_main_big,
+	.news_main_big a.img_scale,
+	.help-class-popular-block,
+	#container .sidebl.lined.help-class-mark-articles { width: 100%; }
+
+	.video_main_small,
+	.video_main_small a.w_video { width: 210px; } 
+
+	.video_main_small {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.video_main_small:nth-child(odd) { margin-right: 0; }
+
+	.video_main_small a.w_video:after {
+		left: calc(50% - 30px);
+    	top: calc(50% - 30px);
+	}
+
+
+	/*	Временно скрываю adsense, facebook */
+	
+	/*.help-class-adsense-block,
+	.help-class-adsense-big-block { display: none; }
+
+	.fb_iframe_widget  { display: none!important; }*/
+	.ads-aside {width: 250px; margin: 0 auto 10px;}
+
+
+	#vk_groups { width: 100% !important; }	
+
+	#container .sidebl.lined.help-class-social-block {
+		min-width: 100%;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.news-body #container .help-class-social-mark { display: block; }
+
+	.stags,
+	.wtags { margin-bottom: 15px; }
+
+	.wtags:last-child {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sima:nth-child(3n+1) { margin-right: 10px; }
+
+	.sima:nth-child(2n+1) { margin-right: 0; }
+
+	.s_price,
+	.s_charact {
+		width: 100%;
+		height: auto;
+	}
+
+	#container aside .s_gal.help-class-thiscar-photo {
+		width: 100%; 
+		min-width: 100%;
+		margin-right: 0;
+	}
+
+	#container aside .s_gal.help-class-thiscar-photo .title {
+		width: 100%;
+	}
+
+	#container aside .s_gal.help-class-thiscar-photo a {
+		min-width: 31%;
+		margin-right: 15px;
+	}
+
+	/*настройка отображения видео по ширине контейнера*/
+
+	.help-class-youtube-wrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.help-class-youtube-wrapper iframe {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.news_razdel a.img_scale {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.news_razdel .info { width: 100%; }
+
+	#container .help-class-popular-block .s_lenta_pop {
+		width: 100%!important;
+		margin-left: 0!important;
+		margin-bottom: 20px;		
+	}
+
+	ul.pagination li { margin-left: 2.5px; }
+
+	a[href*="https://plus.google.com"] { word-wrap:break-word; }
+
+	#modalQuote.reveal-modal {
+		width: 100%!important;
+		min-height: 58vh;		
+	}
+
+	footer { width: 430px; }
+
+}
+
+
+@media (max-width: 479px) {
+
+	/*ширина контейнера 300px*/	
+	.top1,
+	.top2,
+	.submenu,
+	#container { width: 320px; }
+
+	body {
+		min-width: 320px;
+		overflow-x: hidden;
+	}
+
+	#container { padding: 25px 10px 0; }
+
+	#search input {
+		float: left;
+		position: absolute;
+	}
+
+	#search input[type=search]:focus {
+		width: 260px;
+		float: left;
+	}
+
+	.top2 .small-3 { width: 100%; }
+
+	.top2 a.logo { margin: 10px auto 20px; }
+
+	nav > ul > li > a b { right: 8px; }
+
+	.submenu { top: 122px; }
+
+	.submenu .sm-left,
+	.submenu .sm-left > li a:hover {
+		width: 100%;
+		background-image: none;
+	}
+
+	.submenu .sm-right { display: none; }
+
+	.video_main_small {
+		width: 100%;
+		margin-right: 0!important;
+	}
+
+	.video_main_small,
+	.video_main_small a.w_video { width: 100%; }
+
+	#container .sidebl.lined.help-class-popular-block { min-width: 100%; }
+
+	.stags,
+	.wtags {
+		width: 48%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+
+
+	ul.pagination { width: 100%; }
+
+	ul.pagination > li { display: none; }
+
+	ul.pagination > li:nth-child(1),
+	ul.pagination > li:nth-child(2),
+	ul.pagination > li:nth-child(3),
+	ul.pagination > li.disabled,
+	ul.pagination > li:nth-last-child(3), 
+	ul.pagination > li:nth-last-child(2), 
+	ul.pagination > li:nth-last-child(1) {
+		display: block;
+		margin: 5px;
+	}
+
+	.utl-mobile .uptl_container-share,
+	.uptlk_wdgt_XPwGX .uptl_toolbar.uptl_toolbar_share { display: none; }
+
+	.sima,
+	.sima a.sima_img_scale {
+		width: 100%;
+		height: auto;
+	}
+
+	#container aside .s_gal.help-class-thiscar-photo a { min-width: 48%; }
+
+	#container aside .s_gal.help-class-thiscar-photo a,
+	#container aside .s_gal.help-class-thiscar-photo a:nth-child(3n) { margin-right: 10px; }
+	
+	#container aside .s_gal.help-class-thiscar-photo a:nth-child(2n) { margin-right: 0; }
+
+	footer { width: 300px; }	
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+}

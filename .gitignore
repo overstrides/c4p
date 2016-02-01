@@ -1,0 +1,14 @@
+admin/
+bower_components/
+config.codekit
+fonts/
+img/
+scss/
+js/fancy/
+js/fotorama/
+js/lightSlider/
+js/min/
+js/jquery.cookie.js
+css/app.css
+css/app copy.css
+css/font-awesome.min.css
