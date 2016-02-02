@@ -600,6 +600,8 @@
 
 	#vk_groups { width: 100% !important; }	
 
+	#vk_comments, #vk_comments iframe { width: 100% !important; }
+
 	#container .sidebl.lined.help-class-social-block {
 		min-width: 100%;
 		width: 100%;
