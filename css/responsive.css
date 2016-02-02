@@ -715,6 +715,8 @@
 
 	#container .sidebl.lined.help-class-popular-block { display: none; }
 
+	.fb_iframe_widget_fluid span { margin-left: 25px; }
+
 	.stags,
 	.wtags {
 		width: 48%;
@@ -755,11 +757,7 @@
 	#container aside .s_gal.help-class-thiscar-photo a:nth-child(4n)
 	 { margin: 3px!important; }
 	
-	/*#container aside .s_gal.help-class-thiscar-photo a:nth-child(2n) { margin-right: 0; }*/
-
-	footer { width: 300px; }	
-
-
+	footer { width: 300px; }
 
 	/*comments*/
 
