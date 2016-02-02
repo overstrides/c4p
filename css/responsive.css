@@ -750,6 +750,10 @@
 		height: auto;
 	}
 
+	.sima,
+	.sima:nth-child(2n+1),
+	.sima:nth-child(3n+1) { margin: 3px !important; }
+
 	#container aside .s_gal.help-class-thiscar-photo a { min-width: 48%; }
 
 	#container aside .s_gal.help-class-thiscar-photo a,
