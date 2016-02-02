@@ -751,9 +751,11 @@
 	#container aside .s_gal.help-class-thiscar-photo a { min-width: 48%; }
 
 	#container aside .s_gal.help-class-thiscar-photo a,
-	#container aside .s_gal.help-class-thiscar-photo a:nth-child(3n) { margin-right: 10px; }
+	#container aside .s_gal.help-class-thiscar-photo a:nth-child(3n),
+	#container aside .s_gal.help-class-thiscar-photo a:nth-child(4n)
+	 { margin: 3px!important; }
 	
-	#container aside .s_gal.help-class-thiscar-photo a:nth-child(2n) { margin-right: 0; }
+	/*#container aside .s_gal.help-class-thiscar-photo a:nth-child(2n) { margin-right: 0; }*/
 
 	footer { width: 300px; }	
 
