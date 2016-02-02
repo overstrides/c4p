@@ -49,6 +49,10 @@
 
 	.lSAction > .lSNext { right: calc(50% - 380px) !important; }
 
+	/************************/
+	/*Слайдер*/
+	/************************/
+	.news_slider ul#news_slider li .sl-container { width: 100%; }
 
 	/************************/
 	/*Контент*/
