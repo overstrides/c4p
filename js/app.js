@@ -29,6 +29,15 @@ $(document).ready(function() {
 	}
 })
 
+//Delete text in social share buttons
+$(document).ready(function() {
+	if ($(window).width() < '767') {
+		$('.big-share a.fb').empty();
+		$('.big-share a.vk').empty();
+		$('.big-share a.ok').empty();
+	}
+})
+
 
 // search form in adaptive version(480 - 767px)
 $("input[type='text'], input[type='search']").focus(function() {
