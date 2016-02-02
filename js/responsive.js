@@ -29,6 +29,7 @@ $(document).ready(function() {
 //Delete text in social share buttons
 $(document).ready(function() {
 	if ($(window).width() < '767') {
+		$('.big-share').show();
 		$('.big-share a.fb').empty();
 		$('.big-share a.vk').empty();
 		$('.big-share a.ok').empty();

@@ -540,6 +540,8 @@
 
 	.news_slider { display: none; }
 
+	.big-share { display: none; }
+	
 	.big-share b {
 		vertical-align: top;
 		text-transform: uppercase;
