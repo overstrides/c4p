@@ -11,26 +11,24 @@ $(document).ready(function() {
 });
 
 
-	$(document).ready(function() {
-		if ($(window).width() < '999') {
-			$('nav > ul > li').click(function() {
-				console.log('click!');
-				if ($(this).find('.submenu').is(':hidden')) {
-					console.log('is hidden');
-					$('.submenu').hide();
-					$(this).find('.submenu').show();
-					// $(this).css('background-position-y', '-59');
-				}
+// open and close menu on click
+// background position for li and b are fixed
+$(document).ready(function() {
+	if ($(window).width() < '999') {
+		$('nav > ul > li').click(function() {
+			if ($(this).find('.submenu').is(':hidden')) {
+				$('.submenu').hide();
+				$(this).find('.submenu').show();
+			}
+			else {
+				$(this).find('.submenu').hide();
+				$('nav > ul > li').css('background-position-y', '0');
+				$('nav > ul > li b').css('background-position-y', '0');
+			}
+		})
+	}
+})
 
-				else {
-					$('.submenu').hide();
-					$('nav > ul > li').css('background-position-y', '0');
-				};
-
-			});
-			
-		}
-	});
 
 // search form in adaptive version(480 - 767px)
 $("input[type='text'], input[type='search']").focus(function() {
