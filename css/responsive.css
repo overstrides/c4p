@@ -708,7 +708,12 @@
 	.video_main_small,
 	.video_main_small a.w_video { width: 100%; }
 
-	#container .sidebl.lined.help-class-popular-block { min-width: 100%; }
+	.help-class-adsense-block {
+		width: 250px;
+		margin: 3px auto 15px!important;
+	}
+
+	#container .sidebl.lined.help-class-popular-block { display: none; }
 
 	.stags,
 	.wtags {
