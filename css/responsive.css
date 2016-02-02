@@ -741,6 +741,13 @@
 		margin: 5px;
 	}
 
+	#container aside .sidebl.lined.help-class-test-drive {
+		width: 100%;
+		margin: 0;
+		}
+	
+
+
 	.utl-mobile .uptl_container-share,
 	.uptlk_wdgt_XPwGX .uptl_toolbar.uptl_toolbar_share { display: none; }
 
