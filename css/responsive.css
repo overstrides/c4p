@@ -744,9 +744,7 @@
 	#container aside .sidebl.lined.help-class-test-drive {
 		width: 100%;
 		margin: 0;
-		}
-	
-
+	}
 
 	.utl-mobile .uptl_container-share,
 	.uptlk_wdgt_XPwGX .uptl_toolbar.uptl_toolbar_share { display: none; }
@@ -761,7 +759,9 @@
 	.sima:nth-child(2n+1),
 	.sima:nth-child(3n+1) { margin: 3px !important; }
 
-	#container aside .s_gal.help-class-thiscar-photo a { min-width: 48%; }
+	#container aside .s_gal.help-class-thiscar-photo a,
+	#container aside .help-class-test-drive + .help-class-thiscar-photo a,
+	#container aside .help-class-test-drive + .help-class-thiscar-photo a:nth-child(3n) { min-width: 48%; }
 
 	#container aside .s_gal.help-class-thiscar-photo a,
 	#container aside .s_gal.help-class-thiscar-photo a:nth-child(3n),
