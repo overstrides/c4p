@@ -436,8 +436,21 @@
 
 	div#__utl-buttons-1 { display: none!important; }
 
-
 }
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 999px) {
+	#container .sidebl.lined.help-class-popular-block { margin-left: 50px; }
+}
+
+
+
+
+
 
 @media (max-width: 767px) {
 
