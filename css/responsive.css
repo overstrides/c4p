@@ -444,7 +444,7 @@
 
 
 @media (min-width: 768px) and (max-width: 999px) {
-	.help-class-adsense-block.ads-aside { margin-right: 50px; }
+	.help-class-adsense-block{ margin-right: 50px; }
 }
 
 
