@@ -444,7 +444,7 @@
 
 
 @media (min-width: 768px) and (max-width: 999px) {
-	#container .sidebl.lined.help-class-popular-block { margin-left: 50px; }
+	.help-class-adsense-block ads-aside { margin-right: 50px; }
 }
 
 
