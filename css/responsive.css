@@ -701,6 +701,23 @@
 		min-height: 58vh;		
 	}
 
+	#container aside .sidebl.lined.help-class-test-drive {
+		width: 100%;
+		margin: 0;
+	}
+
+	#container .help-class-test-drive + .help-class-thiscar-photo + .help-class-popular-block {
+    min-width: 100%;
+    width: 100%;
+	}
+
+	#container aside .s_gal.help-class-thiscar-photo a,
+	#container aside .help-class-test-drive + .help-class-thiscar-photo a,
+	#container aside .help-class-test-drive + .help-class-thiscar-photo a:nth-child(3n) {
+		min-width: 31%;
+		margin: 5px;
+	}
+
 	footer { width: 430px; }
 
 }
