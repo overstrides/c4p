@@ -434,6 +434,8 @@
 
 	.count { margin-right: 0 !important; }
 
+	div#__utl-buttons-1 { display: none!important; }
+
 
 }
 
@@ -775,9 +777,6 @@
 		width: 100%;
 		margin: 0;
 	}
-
-	.utl-mobile .uptl_container-share,
-	.uptlk_wdgt_XPwGX .uptl_toolbar.uptl_toolbar_share { display: none; }
 
 	.sima,
 	.sima a.sima_img_scale {
