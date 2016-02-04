@@ -717,7 +717,10 @@
 
 	#container aside .s_gal.help-class-thiscar-photo a,
 	#container aside .help-class-test-drive + .help-class-thiscar-photo a,
-	#container aside .help-class-test-drive + .help-class-thiscar-photo a:nth-child(3n) {
+	#container aside .help-class-test-drive + .help-class-thiscar-photo a:nth-child(3n),
+	#container .help-class-adsense-block + .s_gal.help-class-thiscar-photo a,
+	#container .help-class-adsense-block + .s_gal.help-class-thiscar-photo a:nth-child(3n),
+	#container .help-class-adsense-block + .s_gal.help-class-thiscar-photo a:nth-child(4n) {
 		min-width: 31%;
 		margin: 5px;
 	}
